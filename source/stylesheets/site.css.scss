@@ -1,6 +1,17 @@
-body {
-  background-image: url(../images/coming_soon.jpg);
-  position: relative;
-  background-repeat:no-repeat;
-  background-size:100% 100vh;
+@media (max-device-width: 480px){
+  body {
+    background-image: url(../images/door_phone.jpg);
+    position: relative;
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+  }
+}
+
+@media (min-device-width: 480px){
+  body {
+    background-image: url(../images/coming_soon.jpg);
+    position: relative;
+    background-repeat:no-repeat;
+    background-size:100% 100vh;
+  }
 }
