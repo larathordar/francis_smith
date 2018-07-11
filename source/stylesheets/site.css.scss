@@ -1,9 +1,20 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/cinzel/Cinzel-regular.otf);
+    font-family: mySecondFont;
+    src: url(./fonts/josefin-sans/JosefinSans-Regular.ttf);
+    font-family: visualAdition;
+    src: url(./fonts/snell-roundhand/SnellRoundhand-BoldScript.otf);
+}
+
+
 @media (max-device-width: 480px){
   body {
     background-image: url(../images/door_phone.jpeg);
     position: relative;
     background-repeat:no-repeat;
-    background-size:100vh;
+    background-size:100% 100vh;
   }
 }
 
@@ -11,7 +22,33 @@
   body {
     background-image: url(../images/coming_soon.jpg);
     position: relative;
-    background-repeat:no-repeat;
-    background-size:100% 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  .modal-body p{
+    font-family: mySecondFont;
+    font-size: 18px;
+  }
+  .modal-body h2{
+    font-family: visualAdition;
+    color: white;
+  }
+
+  .modal-body label {
+    font-family: mySecondFont;
+    font-size: 14px;
+  }
+
+  .modal-content{
+    background-color: #116D89;
+    color: white;
+  }
+
+  }
+  #contact{
+    font-family: mySecondFont;
+    background: #116D89;
+    margin-top: 80vh;
+    margin-left: 45vh;
   }
 }
