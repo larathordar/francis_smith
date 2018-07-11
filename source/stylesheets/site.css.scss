@@ -16,6 +16,38 @@
     background-repeat:no-repeat;
     background-size:100% 100vh;
   }
+  .modal-body p{
+    font-family: mySecondFont;
+    font-size: 18px;
+  }
+  .modal-body h2{
+    font-family: visualAdition;
+    color: white;
+  }
+
+  .modal-body label {
+    font-family: mySecondFont;
+    font-size: 14px;
+  }
+
+  .modal-content{
+    background-color: #116D89;
+    color: white;
+  }
+
+  #contact{
+    font-family: mySecondFont;
+    background: #116D89;
+    margin-left: 85%;
+    border-right:10%;
+    margin-top: 1%;
+  }
+  #sendButton
+  {
+    font-family: mySecondFont;
+    background-color: #012F46;
+  }
+
 }
 
 @media (min-device-width: 480px){
@@ -48,7 +80,13 @@
   #contact{
     font-family: mySecondFont;
     background: #116D89;
-    margin-top: 80vh;
-    margin-left: 45vh;
+    margin-left: 85%;
+    border-right:10%;
+    margin-top: 1%;
+  }
+  #sendButton
+  {
+    font-family: mySecondFont;
+    background-color: #012F46;
   }
 }
