@@ -11,8 +11,9 @@
   body {
     background-image: url(../images/door_phone.jpeg);
     position: relative;
-    background-repeat:no-repeat;
-    background-size:100% 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 
   .modal-body p{
     font-family: 'Josefin Sans', sans-serif;;
