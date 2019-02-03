@@ -1,0 +1,93 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(./fonts/cinzel/Cinzel-regular.otf);
+    font-family: visualAdition;
+    src: url(./fonts/snell-roundhand/SnellRoundhand-BoldScript.otf);
+}
+
+
+@media (max-device-width: 480px){
+  body {
+    background-image: url(../images/door_phone.jpeg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+  .modal-body p{
+    font-family: 'Josefin Sans', sans-serif;;
+    font-size: 18px;
+    color: #fef0e4;
+  }
+  .modal-body h2{
+    font-family: visualAdition;
+    color: #fef0e4;
+  }
+
+  .modal-body label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    color: #fef0e4;
+  }
+
+  .modal-content{
+    background-color: #116D89;
+    color: #fef0e4;
+  }
+}
+
+  #contact{
+    font-family: 'Josefin Sans', sans-serif;
+    background: #116D89;
+    color: #fef0e4;
+  }
+  #sendButton
+  {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #012F46;
+  }
+
+}
+
+@media (min-device-width: 480px){
+  body {
+    background-image: url(../images/coming_soon.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  .modal-body p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+  }
+  .modal-body h2{
+    font-family: visualAdition;
+    color: w#fef0e4;
+  }
+
+  .modal-body label {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+  }
+
+  .modal-content{
+    background-color: #116D89;
+    color: #fef0e4;
+  }
+
+  }
+  #contact{
+    font-family: 'Josefin Sans', sans-serif;
+    background: #DEDFDF;
+    color: #116D89;
+    margin-left: 85%;
+    border-right:10%;
+    margin-top: 1%;
+  }
+  #sendButton
+  {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #012F46;
+  }
+}
